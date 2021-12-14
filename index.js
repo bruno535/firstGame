@@ -246,6 +246,7 @@ function start() {
       if (colisao5.length > 0) {
         somResgate.play();
         energiaAtual++;
+        salvos++;
         
         reposicionaAmigo();
         $('#amigo').remove();
